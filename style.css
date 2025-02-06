@@ -7,13 +7,13 @@ html {
     box-sizing: inherit;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
-.header{
+.header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
@@ -21,12 +21,12 @@ body{
     align-items: center;
 }
 
-.name{
+.name {
     color: white;
     font-size: x-large;
 }
 
-.links{
+.links {
     display: flex;
     gap: 16px;
 }
@@ -36,7 +36,41 @@ a {
     color: lightgray;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 64px;
+}
+
+.hero-text{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.hero .heading {
+    color: white;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero .text {
+    color: lightgray;
+    font-size: large;
+}
+
 .logo {
-    width: 120px;
+    width: 300px;
     height: auto;
 }
