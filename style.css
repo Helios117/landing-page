@@ -1,1 +1,42 @@
 /* External styling */
+html {
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    align-items: center;
+}
+
+.name{
+    color: white;
+    font-size: x-large;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
