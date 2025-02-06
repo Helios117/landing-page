@@ -56,15 +56,20 @@ a {
     gap: 16px;
 }
 
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
 .hero .heading {
     color: white;
     font-size: 48px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
 }
 
 .text {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
 
 .hero .text {
@@ -82,8 +87,7 @@ a {
 .info{
     padding: 16px;
     text-align: center;
-    font-size: x-large;
-    font-weight: bolder;
+    margin: 32px;
 }
 
 .card-container {
@@ -97,6 +101,7 @@ a {
 .card {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .card-container img {
@@ -126,7 +131,7 @@ a {
 }
 
 .quote .text {
-    font-size: larger;
+    font-size: x-large;
     font-style: italic;
     color: #1F2937;
 }
@@ -135,4 +140,41 @@ a {
     align-self: flex-end;
     font-weight: bold;
     font-size: larger;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-around;
+    margin: 64px 192px;
+    padding: 48px;
+    border-radius: 8px;
+    background-color: orange;
+}
+
+.signup-button {
+    background-color: orange;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: large;
+}
+
+.signup .signup-button {
+    border: solid 4px #1F2937;
+}
+
+.signup-button:active {
+    background-color: #1F2937;
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.footer .text {
+    color: lightgray;
 }
